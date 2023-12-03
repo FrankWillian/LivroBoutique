@@ -1,0 +1,14 @@
+{
+  "name": "LivroBoutique",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [ 
+      "packages/*"
+    ]
+  },
+  "repository": "https://github.com/FrankWillian/LivroBoutique.git",
+  "author": "Frank Willian <frank19valentim@gmail.com>",
+  "license": "MIT"
+}
