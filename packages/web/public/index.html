@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Aplicação React</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Adicione o script do React -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <!-- Adicione o script do ReactDOM -->
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Adicione o script do seu componente React -->
+    <script src="path/to/your/app.js"></script>
+    
+    <!-- Adicione a chamada para renderizar o componente React -->
+    <script>
+        // Exemplo de chamada para renderizar a aplicação
+        ReactDOM.render(
+            React.createElement(App),  // Substitua 'App' pelo seu componente principal
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>
